@@ -42,7 +42,7 @@ As you're writing your code, you can debug using the Scheme Editor. In your `sch
 
 Make sure to run `python3 ok` in a separate tab or window so that the editor keeps running.
 
-If you find that your code works in the online editor but not in your own interpreter, it's possible you have a bug in code from an earlier part that you'll have to track down. Every once in a while there's a bug that our tests don't catch, and if you find one you should let us know!
+If you find that your code works in the online editor but not in your own interpreter, it's possible you have a bug in code from an earlier part that you'll have to track down.
 
 > As we can run `python3 scheme -i <file.scm>`, it is ok to use vscode or any other local editor to write your code.
 
@@ -578,5 +578,13 @@ Use Ok to unlock and test your code:
 ```shell
 python3 ok -q remove -u --local
 python3 ok -q remove --local
+```
+
+
+
+Finally, you can test manually to check your answer again.
+
+```shell
+python3 scheme lab10.scm
 ```
 
